@@ -91,7 +91,7 @@ python Main_Macros.py
 
 You may want to tune a few values for your setup.
 
->Controller deadzone<
+>Controller deadzone
 
 • If stick triggers too easily:
 DEADZONE = 0.55
@@ -102,12 +102,12 @@ DEADZONE = 0.55
 WAVEDASH_LAND_DELAY = 0.11
 ~ Recommended range: 0.09 → 0.13 ~
 
->Hold threshold<
+>Hold threshold
 
 • Tap vs hold LB sensitivity:
 HOLD_THRESHOLD = 0.25
 
-
+```bash
 ### 🧪 Test Tools (Folder: Test_Tools/)
 
 - These are helper scripts to identify controller input:
@@ -115,7 +115,8 @@ HOLD_THRESHOLD = 0.25
 •Controller_Test.py → shows controller name + axes/buttons
 •Button_Identifier.py → find your LB/L1 index
 •AxisConfirm.py → verify left stick axis mapping
-
+```
+```bash
 #  🛠 Troubleshooting
 Macro does nothing in Rocket League
 
@@ -135,7 +136,7 @@ Your controller may use different axis mapping:
 Try changing:
 AXIS_LEFT_STICK_X = 0
 AXIS_LEFT_STICK_Y = 1
-
+```
 
 ⚠️ Disclaimer!!!
 
@@ -149,4 +150,4 @@ This project is released under a restrictive license.
 No redistribution, no derivatives, no re-uploads without permission.
 See LICENSE for full terms.
 
-# -----------------------------------------------END----------------------------------------------------------
+# -------------------------------END-----------------------------------
