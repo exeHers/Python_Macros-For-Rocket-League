@@ -1,3 +1,7 @@
+__title__ = "ENVYYY Rocket League Macros"
+__version__ = "1.0.0"
+__author__ = "ENVYYY"
+
 import time
 import keyboard
 import mouse
