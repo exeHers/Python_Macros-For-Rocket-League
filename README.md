@@ -71,7 +71,7 @@ Just run the batch file and it installs everything + launches the script:
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-python Main_Macros.py
+python Main_Macros.py...
 
 ✅ Running
 One-click (recommended)
